@@ -1,0 +1,1723 @@
+<devices>
+  <device>
+    <name>EFM32G890F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0020_efm32g890_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0010_efm32g890_datasheet.pdf</datasheet>
+    <short>BGA112, 128/16KB, 4x40 LCD, EBI, ADC</short>
+    <details>Package: BGA112
+Flash:   128KB
+SRAM:    16KB
+GPIO:    90 pins
+LCD:     4x40
+AES:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G890F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0020_efm32g890_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0010_efm32g890_datasheet.pdf</datasheet>
+    <short>BGA112, 64/16KB, 4x40 LCD, EBI, ADC</short>
+    <details>Package: BGA112
+Flash:   64KB
+SRAM:    16KB
+GPIO:    90 pins
+LCD:     4x40
+AES:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G890F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0020_efm32g890_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0010_efm32g890_datasheet.pdf</datasheet>
+    <short>BGA112, 32/8KB, 4x40 LCD, EBI, ADC</short>
+    <details>Package: BGA112
+Flash:   32KB
+SRAM:    8KB
+GPIO:    90 pins
+LCD:     4x40
+AES:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G880F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0019_efm32g880_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0009_efm32g880_datasheet.pdf</datasheet>
+    <short>QFP100, 128/16KB, 4x40 LCD, EBI, ADC</short>
+    <details>Package: QFP100
+Flash:   128KB
+SRAM:    16KB
+GPIO:    86 pins
+LCD:     4x40
+AES:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G880F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0019_efm32g880_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0009_efm32g880_datasheet.pdf</datasheet>
+    <short>QFP100, 64/16KB, 4x40 LCD, EBI, ADC</short>
+    <details>Package: QFP100
+Flash:   64KB
+SRAM:    16KB
+GPIO:    86 pins
+LCD:     4x40
+AES:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G880F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0019_efm32g880_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0009_efm32g880_datasheet.pdf</datasheet>
+    <short>QFP100, 32/8KB, 4x40 LCD, EBI, ADC</short>
+    <details>Package: QFP100
+Flash:   32KB
+SRAM:    8KB
+GPIO:    86 pins
+LCD:     4x40
+AES:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G840F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0018_efm32g840_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0008_efm32g840_datasheet.pdf</datasheet>
+    <short>QFN64, 128/16KB, 4x24 LCD, ADC</short>
+    <details>Package: QFN64
+Flash:   128KB
+SRAM:    16KB
+GPIO:    56 pins
+LCD:     4x24
+AES:     Yes
+ADC:     1 (8)
+</details>
+  </device>
+  <device>
+    <name>EFM32G840F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0018_efm32g840_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0008_efm32g840_datasheet.pdf</datasheet>
+    <short>QFN64, 64/16KB, 4x24 LCD, ADC</short>
+    <details>Package: QFN64
+Flash:   64KB
+SRAM:    16KB
+GPIO:    56 pins
+LCD:     4x24
+AES:     Yes
+ADC:     1 (8)
+</details>
+  </device>
+  <device>
+    <name>EFM32G840F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0018_efm32g840_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0008_efm32g840_datasheet.pdf</datasheet>
+    <short>QFN64, 32/8KB, 4x24 LCD, ADC</short>
+    <details>Package: QFN64
+Flash:   32KB
+SRAM:    8KB
+GPIO:    56 pins
+LCD:     4x24
+AES:     Yes
+ADC:     1 (8)
+</details>
+  </device>
+  <device>
+    <name>EFM32G290F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0017_efm32g290_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0007_efm32g290_datasheet.pdf</datasheet>
+    <short>BGA112, 128/16KB, EBI, ADC</short>
+    <details>Package: BGA112
+Flash:   128KB
+SRAM:    16KB
+GPIO:    90 pins
+EBI:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G290F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0017_efm32g290_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0007_efm32g290_datasheet.pdf</datasheet>
+    <short>BGA112, 64/16KB, EBI, ADC</short>
+    <details>Package: BGA112
+Flash:   64KB
+SRAM:    16KB
+GPIO:    90 pins
+EBI:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G290F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0017_efm32g290_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0007_efm32g290_datasheet.pdf</datasheet>
+    <short>BGA112, 32/8KB, EBI, ADC</short>
+    <details>Package: BGA112
+Flash:   32KB
+SRAM:    8KB
+GPIO:    90 pins
+EBI:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G280F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0016_efm32g280_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0006_efm32g280_datasheet.pdf</datasheet>
+    <short>QFP100, 128/16KB, EBI, ADC</short>
+    <details>Package: QFP100
+Flash:   128KB
+SRAM:    16KB
+GPIO:    86 pins
+EBI:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G280F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0016_efm32g280_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0006_efm32g280_datasheet.pdf</datasheet>
+    <short>QFP100, 64/16KB, EBI, ADC</short>
+    <details>Package: QFP100
+Flash:   64KB
+SRAM:    16KB
+GPIO:    86 pins
+EBI:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G280F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0016_efm32g280_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0006_efm32g280_datasheet.pdf</datasheet>
+    <short>QFP100, 32/8KB, EBI, ADC</short>
+    <details>Package: QFP100
+Flash:   32KB
+SRAM:    8KB
+GPIO:    86 pins
+EBI:     Yes
+ADC:     1 (8)
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32G230F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0015_efm32g230_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0005_efm32g230_datasheet.pdf</datasheet>
+    <short>QFN64, 128/16KB, ADC</short>
+    <details>Package: QFN64
+Flash:   128KB
+SRAM:    16KB
+GPIO:    56 pins
+AES:     Yes
+ADC:     1 (8)
+</details>
+  </device>
+  <device>
+    <name>EFM32G230F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0015_efm32g230_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0005_efm32g230_datasheet.pdf</datasheet>
+    <short>QFN64, 64/16KB, ADC</short>
+    <details>Package: QFN64
+Flash:   64KB
+SRAM:    16KB
+GPIO:    56 pins
+AES:     Yes
+ADC:     1 (8)
+</details>
+  </device>
+  <device>
+    <name>EFM32G230F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0015_efm32g230_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0005_efm32g230_datasheet.pdf</datasheet>
+    <short>QFN64, 32/8KB, ADC</short>
+    <details>Package: QFN64
+Flash:   32KB
+SRAM:    8KB
+GPIO:    56 pins
+AES:     Yes
+ADC:     1 (8)
+</details>
+  </device>
+  <device>
+    <name>EFM32G210F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0014_efm32g210_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0004_efm32g210_datasheet.pdf</datasheet>
+    <short>QFN32, 128/16KB, ADC</short>
+    <details>Package: QFN32
+Flash:   128KB
+SRAM:    16KB
+GPIO:    24 pins
+AES:     Yes
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32G200F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0021_efm32g200_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0003_efm32g200_datasheet.pdf</datasheet>
+    <short>QFN32, 64/16KB, ADC</short>
+    <details>Package: QFN32
+Flash:   64KB
+SRAM:    16KB
+GPIO:    24 pins
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32G200F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0021_efm32g200_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0003_efm32g200_datasheet.pdf</datasheet>
+    <short>QFN32, 32/8KB, ADC</short>
+    <details>Package: QFN32
+Flash:   32KB
+SRAM:    8KB
+GPIO:    24 pins
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32G200F16</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0021_efm32g200_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0003_efm32g200_datasheet.pdf</datasheet>
+    <short>QFN32, 16/8KB</short>
+    <details>Package: QFN32
+Flash:   16KB
+SRAM:    8KB
+GPIO:    24 pins
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32G222F32</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0014_efm32g210_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0033_efm32g222_datasheet.pdf</datasheet>
+    <short>QFP48, 32/8KB, ADC</short>
+    <details>Package: QFP48
+Flash:   32KB
+SRAM:    8KB
+GPIO:    37 pins
+AES:     Yes
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32G222F64</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0014_efm32g210_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0033_efm32g222_datasheet.pdf</datasheet>
+    <short>QFP48, 64/16KB, ADC</short>
+    <details>Package: QFP48
+Flash:   64KB
+SRAM:    16KB
+GPIO:    37 pins
+AES:     Yes
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32G222F128</name>
+    <family>Gecko</family>
+    <manual>doc/reference_manuals/d0001_efm32g_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <errata>doc/errata/d0014_efm32g210_errata.pdf</errata>
+    <datasheet>doc/datasheet/d0033_efm32g222_datasheet.pdf</datasheet>
+    <short>QFP48, 128/16KB, ADC</short>
+    <details>Package: QFP48
+Flash:   128KB
+SRAM:    16KB
+GPIO:    37 pins
+AES:     Yes
+ADC:     1 (4)
+</details>
+  </device>
+  <device>
+    <name>EFM32TG840F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0011_efm32tg840_datasheet.pdf</datasheet>
+    <short>QFN64, 32/4KB, 8x20 LCD, LESENSE, ADC</short>
+    <details>Package: QFN64
+Flash:   32KB
+SRAM:    4KB
+GPIO:    56 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG840F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0011_efm32tg840_datasheet.pdf</datasheet>
+    <short>QFN64, 16/4KB, 8x20 LCD, LESENSE, ADC</short>
+    <details>Package: QFN64
+Flash:   16KB
+SRAM:    4KB
+GPIO:    56 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG840F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0011_efm32tg840_datasheet.pdf</datasheet>
+    <short>QFN64, 8/2KB, 8x20 LCD, LESENSE, ADC</short>
+    <details>Package: QFN64
+Flash:   8KB
+SRAM:    2KB
+GPIO:    56 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG822F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0052_efm32tg822_datasheet.pdf</datasheet>
+    <short>QFP48, 8/2KB, 8x11 LCD, LESENSE, ADC</short>
+    <details>Package: QFP48
+Flash:   8KB
+SRAM:    2KB
+GPIO:    37 pins
+LCD:     8x11
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG822F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0052_efm32tg822_datasheet.pdf</datasheet>
+    <short>QFP48, 16/4KB, 8x11 LCD, LESENSE, ADC</short>
+    <details>Package: QFP48
+Flash:   16KB
+SRAM:    4KB
+GPIO:    37 pins
+LCD:     8x11
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG822F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0052_efm32tg822_datasheet.pdf</datasheet>
+    <short>QFP48, 32/4KB, 8x11 LCD, LESENSE, ADC</short>
+    <details>Package: QFP48
+Flash:   32KB
+SRAM:    4KB
+GPIO:    37 pins
+LCD:     8x11
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG230F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0030_efm32tg230_datasheet.pdf</datasheet>
+    <short>QFN64, 32/4KB, LESENSE, ADC</short>
+    <details>Package: QFN64
+Flash:   32KB
+SRAM:    4KB
+GPIO:    56 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG230F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0030_efm32tg230_datasheet.pdf</datasheet>
+    <short>QFN64, 16/4KB, LESENSE, ADC</short>
+    <details>Package: QFN64
+Flash:   16KB
+SRAM:    4KB
+GPIO:    56 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG230F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0030_efm32tg230_datasheet.pdf</datasheet>
+    <short>QFN64, 8/2KB, LESENSE, ADC</short>
+    <details>Package: QFN64
+Flash:   8KB
+SRAM:    2KB
+GPIO:    56 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG222F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0051_efm32tg222_datasheet.pdf</datasheet>
+    <short>QFP48, 8/2KB, LESENSE, ADC</short>
+    <details>Package: QFP48
+Flash:   8KB
+SRAM:    2KB
+GPIO:    37 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG222F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0051_efm32tg222_datasheet.pdf</datasheet>
+    <short>QFP48, 16/4KB, LESENSE, ADC</short>
+    <details>Package: QFP48
+Flash:   16KB
+SRAM:    4KB
+GPIO:    37 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG222F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0051_efm32tg222_datasheet.pdf</datasheet>
+    <short>QFP48, 32/4KB, LESENSE, ADC</short>
+    <details>Package: QFP48
+Flash:   32KB
+SRAM:    4KB
+GPIO:    37 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG210F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0012_efm32tg210_datasheet.pdf</datasheet>
+    <short>QFN32, 32/4KB, LESENSE, ADC</short>
+    <details>Package: QFN32
+Flash:   32KB
+SRAM:    4KB
+GPIO:    24 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG210F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0012_efm32tg210_datasheet.pdf</datasheet>
+    <short>QFN32, 16/4KB, LESENSE, ADC</short>
+    <details>Package: QFN32
+Flash:   16KB
+SRAM:    4KB
+GPIO:    24 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG210F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0012_efm32tg210_datasheet.pdf</datasheet>
+    <short>QFN32, 8/2KB, LESENSE, ADC</short>
+    <details>Package: QFN32
+Flash:   8KB
+SRAM:    2KB
+GPIO:    24 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (4)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG110F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0013_efm32tg110_datasheet.pdf</datasheet>
+    <short>QFN24, 32/4KB, LESENSE, ADC</short>
+    <details>Package: QFN24
+Flash:   32KB
+SRAM:    4KB
+GPIO:    17 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (2)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG110F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0013_efm32tg110_datasheet.pdf</datasheet>
+    <short>QFN24, 16/4KB, LESENSE, ADC</short>
+    <details>Package: QFN24
+Flash:   16KB
+SRAM:    4KB
+GPIO:    17 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (2)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG110F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0013_efm32tg110_datasheet.pdf</datasheet>
+    <short>QFN24, 8/2KB, LESENSE, ADC</short>
+    <details>Package: QFN24
+Flash:   8KB
+SRAM:    2KB
+GPIO:    17 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (2)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG110F4</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0013_efm32tg110_datasheet.pdf</datasheet>
+    <short>QFN24, 4/1KB, LESENSE, ADC</short>
+    <details>Package: QFN24
+Flash:   4KB
+SRAM:    1KB
+GPIO:    17 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (2)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG108F32</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0032_efm32tg108_datasheet.pdf</datasheet>
+    <short>QFN24, 32/4KB, LESENSE</short>
+    <details>Package: QFN24
+Flash:   32KB
+SRAM:    4KB
+GPIO:    17 pins
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG108F16</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0032_efm32tg108_datasheet.pdf</datasheet>
+    <short>QFN24, 16/4KB, LESENSE</short>
+    <details>Package: QFN24
+Flash:   16KB
+SRAM:    4KB
+GPIO:    17 pins
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG108F8</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0032_efm32tg108_datasheet.pdf</datasheet>
+    <short>QFN24, 8/2KB, LESENSE</short>
+    <details>Package: QFN24
+Flash:   8KB
+SRAM:    2KB
+GPIO:    17 pins
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32TG108F4</name>
+    <family>Tiny Gecko</family>
+    <manual>doc/reference_manuals/d0034_efm32tg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0032_efm32tg108_datasheet.pdf</datasheet>
+    <short>QFN24, 4/1KB, LESENSE</short>
+    <details>Package: QFN24
+Flash:   4KB
+SRAM:    1KB
+GPIO:    17 pins
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG990F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0046_efm32gg990_datasheet.pdf</datasheet>
+    <short>BGA112, 1024/128KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG990F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0046_efm32gg990_datasheet.pdf</datasheet>
+    <short>BGA112, 512/128KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   512KB
+SRAM:    128KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG990F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0046_efm32gg990_datasheet.pdf</datasheet>
+    <short>BGA112, 256/32KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   256KB
+SRAM:    32KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG990F128</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0046_efm32gg990_datasheet.pdf</datasheet>
+    <short>BGA112, 128/32KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   128KB
+SRAM:    32KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG990F64</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0046_efm32gg990_datasheet.pdf</datasheet>
+    <short>BGA112, 64/32KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   64KB
+SRAM:    32KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG980F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0045_efm32gg980_datasheet.pdf</datasheet>
+    <short>QFP100, 1024/128KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    81 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG980F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0045_efm32gg980_datasheet.pdf</datasheet>
+    <short>QFP100, 512/128KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   512KB
+SRAM:    128KB
+GPIO:    81 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG980F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0045_efm32gg980_datasheet.pdf</datasheet>
+    <short>QFP100, 256/32KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   256KB
+SRAM:    32KB
+GPIO:    81 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG980F128</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0045_efm32gg980_datasheet.pdf</datasheet>
+    <short>QFP100, 128/32KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   128KB
+SRAM:    32KB
+GPIO:    81 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG980F64</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0045_efm32gg980_datasheet.pdf</datasheet>
+    <short>QFP100, 64/32KB, USB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   64KB
+SRAM:    32KB
+GPIO:    81 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG940F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0044_efm32gg940_datasheet.pdf</datasheet>
+    <short>QFN64, 1024/128KB, USB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    52 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG940F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0044_efm32gg940_datasheet.pdf</datasheet>
+    <short>QFN64, 512/128KB, USB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   512KB
+SRAM:    128KB
+GPIO:    52 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG940F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0044_efm32gg940_datasheet.pdf</datasheet>
+    <short>QFN64, 256/32KB, USB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   256KB
+SRAM:    32KB
+GPIO:    52 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG940F128</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0044_efm32gg940_datasheet.pdf</datasheet>
+    <short>QFN64, 128/32KB, USB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   128KB
+SRAM:    32KB
+GPIO:    52 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG940F64</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0044_efm32gg940_datasheet.pdf</datasheet>
+    <short>QFN64, 64/32KB, USB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   64KB
+SRAM:    32KB
+GPIO:    52 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG890F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0043_efm32gg890_datasheet.pdf</datasheet>
+    <short>BGA112, 1024/128KB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    90 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG890F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0043_efm32gg890_datasheet.pdf</datasheet>
+    <short>BGA112, 512/128KB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   512KB
+SRAM:    128KB
+GPIO:    90 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG890F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0043_efm32gg890_datasheet.pdf</datasheet>
+    <short>BGA112, 256/32KB, 8x36 LCD, LESENSE</short>
+    <details>Package: BGA112
+Flash:   256KB
+SRAM:    32KB
+GPIO:    90 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG880F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0042_efm32gg880_datasheet.pdf</datasheet>
+    <short>QFP100, 1024/128KB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG880F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0042_efm32gg880_datasheet.pdf</datasheet>
+    <short>QFP100, 512/128KB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   512KB
+SRAM:    128KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG880F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0042_efm32gg880_datasheet.pdf</datasheet>
+    <short>QFP100, 256/32KB, 8x36 LCD, LESENSE</short>
+    <details>Package: QFP100
+Flash:   256KB
+SRAM:    32KB
+GPIO:    86 pins
+LCD:     8x36
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG840F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0041_efm32gg840_datasheet.pdf</datasheet>
+    <short>QFN64, 1024/128KB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    56 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG840F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0041_efm32gg840_datasheet.pdf</datasheet>
+    <short>QFN64, 512/128KB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   512KB
+SRAM:    128KB
+GPIO:    56 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG840F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0041_efm32gg840_datasheet.pdf</datasheet>
+    <short>QFN64, 256/32KB, 8x20 LCD, LESENSE</short>
+    <details>Package: QFN64
+Flash:   256KB
+SRAM:    32KB
+GPIO:    56 pins
+LCD:     8x20
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG390F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0040_efm32gg390_datasheet.pdf</datasheet>
+    <short>BGA112, 1024/128KB, USB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG390F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0040_efm32gg390_datasheet.pdf</datasheet>
+    <short>BGA112, 512/128KB, USB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   512KB
+SRAM:    128KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG390F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0040_efm32gg390_datasheet.pdf</datasheet>
+    <short>BGA112, 256/32KB, USB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   256KB
+SRAM:    32KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG390F128</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0040_efm32gg390_datasheet.pdf</datasheet>
+    <short>BGA112, 128/32KB, USB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   128KB
+SRAM:    32KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG390F64</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0040_efm32gg390_datasheet.pdf</datasheet>
+    <short>BGA112, 64/32KB, USB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   64KB
+SRAM:    32KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG380F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0039_efm32gg380_datasheet.pdf</datasheet>
+    <short>QFP100, 1024/128KB, USB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    81 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG380F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0039_efm32gg380_datasheet.pdf</datasheet>
+    <short>QFP100, 512/128KB, USB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   512KB
+SRAM:    128KB
+GPIO:    81 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG380F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0039_efm32gg380_datasheet.pdf</datasheet>
+    <short>QFP100, 256/32KB, USB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   256KB
+SRAM:    32KB
+GPIO:    81 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG380F128</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0039_efm32gg380_datasheet.pdf</datasheet>
+    <short>QFP100, 128/32KB, USB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   128KB
+SRAM:    32KB
+GPIO:    81 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG380F64</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0039_efm32gg380_datasheet.pdf</datasheet>
+    <short>QFP100, 64/32KB, USB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   64KB
+SRAM:    32KB
+GPIO:    81 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG330F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0038_efm32gg330_datasheet.pdf</datasheet>
+    <short>QFN64, 1024/128KB, USB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    52 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG330F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0038_efm32gg330_datasheet.pdf</datasheet>
+    <short>QFN64, 512/128KB, USB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   512KB
+SRAM:    128KB
+GPIO:    52 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG330F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0038_efm32gg330_datasheet.pdf</datasheet>
+    <short>QFN64, 256/32KB, USB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   256KB
+SRAM:    32KB
+GPIO:    52 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG330F128</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0038_efm32gg330_datasheet.pdf</datasheet>
+    <short>QFN64, 128/32KB, USB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   128KB
+SRAM:    32KB
+GPIO:    52 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG330F64</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0038_efm32gg330_datasheet.pdf</datasheet>
+    <short>QFN64, 64/32KB, USB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   64KB
+SRAM:    32KB
+GPIO:    52 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+USB:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG290F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0037_efm32gg290_datasheet.pdf</datasheet>
+    <short>BGA112, 1024/128KB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    90 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG290F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0037_efm32gg290_datasheet.pdf</datasheet>
+    <short>BGA112, 512/128KB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   512KB
+SRAM:    128KB
+GPIO:    90 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG290F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0037_efm32gg290_datasheet.pdf</datasheet>
+    <short>BGA112, 256/32KB, LESENSE</short>
+    <details>Package: BGA112
+Flash:   256KB
+SRAM:    32KB
+GPIO:    90 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG280F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0036_efm32gg280_datasheet.pdf</datasheet>
+    <short>QFP100, 1024/128KB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG280F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0036_efm32gg280_datasheet.pdf</datasheet>
+    <short>QFP100, 512/128KB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   512KB
+SRAM:    128KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG280F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0036_efm32gg280_datasheet.pdf</datasheet>
+    <short>QFP100, 256/32KB, LESENSE</short>
+    <details>Package: QFP100
+Flash:   256KB
+SRAM:    32KB
+GPIO:    86 pins
+AES:     Yes
+EBI:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+EBI:     Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG230F1024</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0035_efm32gg230_datasheet.pdf</datasheet>
+    <short>QFN64, 1024/128KB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   1024KB
+SRAM:    128KB
+GPIO:    56 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG230F512</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0035_efm32gg230_datasheet.pdf</datasheet>
+    <short>QFN64, 512/128KB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   512KB
+SRAM:    128KB
+GPIO:    56 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+  <device>
+    <name>EFM32GG230F256</name>
+    <family>Giant Gecko</family>
+    <manual>doc/reference_manuals/d0053_efm32gg_reference_manual.pdf</manual>
+    <trm>doc/trm/d0002_efm32_cortex-m3_reference_manual.pdf</trm>
+    <datasheet>doc/datasheet/d0035_efm32gg230_datasheet.pdf</datasheet>
+    <short>QFN64, 256/32KB, LESENSE</short>
+    <details>Package: QFN64
+Flash:   256KB
+SRAM:    32KB
+GPIO:    56 pins
+AES:     Yes
+OpAmps:  3
+ADC:     1 (8)
+LESENSE: Yes
+</details>
+  </device>
+</devices>
