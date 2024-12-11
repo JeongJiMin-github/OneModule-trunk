@@ -477,7 +477,7 @@
 //#define MODEL_NUM MODEL_OMV4_ER_LCD
 
 /** @brief Model Number(ER_PLUS LCD_ECR) data=    , xdata=         , code=           , 2017.01.20*/
-//#define MODEL_NUM MODEL_OMV4_ER_LCD_ECR
+#define MODEL_NUM MODEL_OMV4_ER_LCD_ECR
 
 /** @brief Model Number(ER_PLUS LCD_ECR) data=    , xdata=         , code=           , 2017.01.20*/
 //#define MODEL_NUM MODEL_OMV4_ER_LCD_SATO
@@ -527,7 +527,7 @@
 //#define MODEL_NUM MODEL_OMV4_SW2W_LED
 
 /** @brief Model Number(PDN) data=    , xdata=         , code=           , 2019.07.24*/
-#define MODEL_NUM MODEL_OMV4_PDN_LED
+//#define MODEL_NUM MODEL_OMV4_PDN_LED
 
 //[end] OMV4 Model List
 
@@ -2482,7 +2482,8 @@
     /** @brief Nation Define(PDN_LED)*/
     //#define COUNTRY_UNITEDSTATES
 	//#define COUNTRY_CANADA
-    #define COUNTRY_TURKEY
+    //#define COUNTRY_TURKEY
+    //#define COUNTRY_AUSTRALIA
     //#define USE_CERTIFICATION_FUNCTION
 
     /** @brief Software Version(PDN)*/
@@ -2576,7 +2577,10 @@
 	#undef USE_STREAM_CAS_22BYTE
 #endif
 #ifdef COUNTRY_TURKEY
-    #define USE_TURKEY_ECR_15_PROTOCOL     // 터키 요청에 의해 ECR Type#15(실시간 무게 전송)에 줄바꿈 기능 추가
+    #define USE_TURKEY_ECR_15_PROTOCOL      // 터키 요청에 의해 전용 ECR Type#15(실시간 무게 전송)기능 추가 -> 기존 ECR Type #15와 다름
+#endif
+#ifdef COUNTRY_AUSTRALIA
+    #define USE_LOWERCASE_WEIGHT_UNIT    // 저울-PC 통신시 무게 단위 소문자로 전송 요청(호주 요청 사항)
 #endif
 #ifdef USE_CERTIFICATION_FUNCTION // 온도보상 및 크립보상 Menu On
 	/** @brief USE MWII-H Temp compensation */

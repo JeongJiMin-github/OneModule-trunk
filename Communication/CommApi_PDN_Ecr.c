@@ -100,7 +100,7 @@
 #define PORT_TYPE_USB 						0 //used to the responseDelayCtrl variable for usb communication.
 #define PORT_TYPE_RS232 						1 //used to the responseDelayCtrl variable for RS232 communication.
 
-#define USE_TARE_KEY_PROTOCOL	250			// 'T' or 't'를 통신으로 Tare Key 잡는 기능
+#define COMM_STATE_TARE_KEY	250			// 'T' or 't'문자를 통해 통신으로 Tare Key 잡는 기능
 /*
 ********************************************************************************
 *                       LOCAL DATA TYPES & STRUCTURES
@@ -1042,10 +1042,17 @@ void commEcrSendWeight(RING_BUF *txRingBufPtr, INT8U weightUnit, INT8U parityTyp
 				}
 			}
 */
+#ifdef USE_LOWERCASE_WEIGHT_UNIT			// 무게 단위 소문자 요청
+			commSendCharWithParity(commWeightUnitSmallStrTable[weightUnit][0], parityTypeChk, txRingBufPtr);
+			commSendCharWithParity(commWeightUnitSmallStrTable[weightUnit][1], parityTypeChk, txRingBufPtr);
+			bcc ^= commWeightUnitSmallStrTable[weightUnit][0];
+			bcc ^= commWeightUnitSmallStrTable[weightUnit][1];
+#else										// #ifdef USE_LOWERCASE_WEIGHT_UNIT
 			commSendCharWithParity(commWeightUnitStrTable[weightUnit][0], parityTypeChk, txRingBufPtr);	
 			commSendCharWithParity(commWeightUnitStrTable[weightUnit][1], parityTypeChk, txRingBufPtr);
 			bcc ^= commWeightUnitStrTable[weightUnit][0];
 			bcc ^= commWeightUnitStrTable[weightUnit][1];
+#endif
 
 #ifndef USE_2BYPE_CHECKSUM_PROTOCOL
 			commSendCharWithParity(bcc, parityTypeChk, txRingBufPtr);
@@ -3482,7 +3489,7 @@ void commEcrType13(RING_BUF *rxRingBufPtr, RING_BUF *txRingBufPtr, INT8U parityT
 * @param    rxRingBufPtr : 받은 데이터가 있는 Ring Buffer Pointer
 *           txRingBufPtr : 보낼 데이터를 넣을 Ring Buffer Pointer
 * @return   none
-* @remark   Protocol은 다음과 같다.
+* @remark   Protocol은 다음과 같다. !!(터키제외 -> #ifdef USE_TURKEY_ECR_15_PROTOCOL)!!
 *			1> Scale  -- "data blocks" RS --> PC
 *           "data blocks"는 다음과 같다.
 *            : W4 W3 W2 W1 W0 <S>
@@ -3511,7 +3518,7 @@ void commEcrType14(RING_BUF *rxRingBufPtr, RING_BUF *txRingBufPtr, INT8U parityT
 #ifdef USE_TURKEY_ECR_15_PROTOCOL
 			else if ((byte == 't')||(byte == 'T')) 
 			{
-				commState = USE_TARE_KEY_PROTOCOL;
+				commState = COMM_STATE_TARE_KEY;
 			}
 #endif
 		}
@@ -3523,11 +3530,11 @@ void commEcrType14(RING_BUF *rxRingBufPtr, RING_BUF *txRingBufPtr, INT8U parityT
 			}
 		}
 #ifdef USE_TURKEY_ECR_15_PROTOCOL
-		else if(commState == USE_TARE_KEY_PROTOCOL)
+		else if(commState == COMM_STATE_TARE_KEY)
 		{
 			SaleTareExtKey();
 			RunSaleWeightTareProc();
-			commState=0;
+			commState = 0;
 		}
 #endif
 		else
@@ -4006,6 +4013,7 @@ void commEcrType36(RING_BUF *rxRingBufPtr, RING_BUF *txRingBufPtr, INT8U parityT
 				}
 				else
 				{
+					commSendCharWithParity(STX, parityTypeChk, txRingBufPtr);  //0x02
 					commSendCharWithParity('?', parityTypeChk, txRingBufPtr);  //0x3F					
 					commSendCharWithParity('X', parityTypeChk, txRingBufPtr);  //0x58	
 					commSendCharWithParity(0x0d, parityTypeChk, txRingBufPtr);  //CR->0x0d
@@ -4185,14 +4193,6 @@ void commBtInterpreter(RING_BUF *rxRingBufPtr, RING_BUF *txRingBufPtr)
 				else if (byte == 'a') //0x61
 				{
 					commEMSSendWeight(txRingBufPtr);
-				}
-#endif
-#ifdef USE_COMMAND_TARE_KEY
-				else if ((byte == 't')||(byte == 'T')) //0x74
-				{
-					SaleTareExtKey();
-					RunSaleWeightTareProc();
-					commState=0;
 				}
 #endif
 				else if (byte == 's')
