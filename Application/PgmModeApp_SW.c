@@ -327,6 +327,10 @@ INT8U pgmUserSetup(KEY_TYPE key)
 				DispSetMsgWithNum("r", REVISION_NUM);
 				TimerSetDelay100ms(TIMER_DELAY_100MS_INITIAL, 10);//include disp. revision 10
 				while (!TimerCheckDelay100ms(TIMER_DELAY_100MS_INITIAL));	//wait key
+
+				DispSetMsgWithNum("v", VERSION_NUM);
+				TimerSetDelay100ms(TIMER_DELAY_100MS_INITIAL, 10);//include disp. revision 10
+				while (!TimerCheckDelay100ms(TIMER_DELAY_100MS_INITIAL));	//wait key
 			}
 #endif
 			DispSetStr(MenuDataWinNum, "U SET");			

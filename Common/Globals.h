@@ -471,13 +471,13 @@
 //#define MODEL_NUM MODEL_OMV4_DB2_LCD
 
 /** @brief Model Number(DB1H VFD) data=    , xdata=         , code=           , 2017.01.20*/
-//#define MODEL_NUM MODEL_OMV4_DB1H_VFD
+#define MODEL_NUM MODEL_OMV4_DB1H_VFD
 
 /** @brief Model Number(ER_PLUS LCD) data=    , xdata=         , code=           , 2017.01.20*/
 //#define MODEL_NUM MODEL_OMV4_ER_LCD
 
 /** @brief Model Number(ER_PLUS LCD_ECR) data=    , xdata=         , code=           , 2017.01.20*/
-#define MODEL_NUM MODEL_OMV4_ER_LCD_ECR
+//#define MODEL_NUM MODEL_OMV4_ER_LCD_ECR
 
 /** @brief Model Number(ER_PLUS LCD_ECR) data=    , xdata=         , code=           , 2017.01.20*/
 //#define MODEL_NUM MODEL_OMV4_ER_LCD_SATO
@@ -534,8 +534,8 @@
 #if MODEL_NUM == MODEL_OMV4_PB_LCD
     /** @brief Software Version(SW)*/
     #define VERSION_NUM 412
-    /** @brief Software Version(RUSSIA, SW)*/
-    #define VERSION_NUM_RUSSIA VERSION_NUM
+    /** @brief  USE Russia certificated version display */
+    #define VERSION_NUM_RUSSIA 220
     /** @brief Software Version(SOUTH AFRICA, SW)*/
     #define VERSION_NUM_SOUTH_AFRICA VERSION_NUM
     /** @brief Software Revision*/
@@ -642,10 +642,13 @@
 #endif//#if MODEL_NUM ==MODEL_NUM_MODEL_OMV4_PB_LCD
 
 #if MODEL_NUM == MODEL_OMV4_SW1SCU_LCD
+    /** @brief Nation Define(SW1SCU_LCD)*/
+    //#define COUNTRY_GUATEMALA
+
     /** @brief Software Version(SW)*/
     #define VERSION_NUM 412
-    /** @brief Software Version(RUSSIA, SW)*/
-    #define VERSION_NUM_RUSSIA VERSION_NUM
+    /** @brief  USE Russia certificated version display */
+    #define VERSION_NUM_RUSSIA 218
     /** @brief Software Version(SOUTH AFRICA, SW)*/
     #define VERSION_NUM_SOUTH_AFRICA VERSION_NUM
     /** @brief Software Revision*/
@@ -701,10 +704,6 @@
     #endif
 	/** @brief USE Version string with dot (for Old Certi, not Use New Certi) */
 	//#define USE_VERSION_STR_DOT
-
-	/** @brief Nation Define(SW1SCU_LCD)*/
-	//#define COUNTRY_GUATEMALA
-    
     /** @brief Compiler option : use IAR */
     #define IAR
     /** @brief USE global typedef for 32bit define */
@@ -808,8 +807,8 @@
     
     /** @brief Software Version(SWLR)*/
     #define VERSION_NUM 410
-    /** @brief Software Version(RUSSIA, SWLR)*/
-    #define VERSION_NUM_RUSSIA 217
+    /** @brief  USE Russia certificated version display */
+    #define VERSION_NUM_RUSSIA 218
     /** @brief Software Version(SOUTH AFRICA, SWLR)*/
     #define VERSION_NUM_SOUTH_AFRICA VERSION_NUM
     /** @brief Software Revision*/
@@ -871,8 +870,8 @@
 //#define COUNTRY_NETHERLAND
 
     #define VERSION_NUM 410
-	/** @brief Software Version(RUSSIA, SW)*/
-	#define VERSION_NUM_RUSSIA VERSION_NUM
+	/** @brief  USE Russia certificated version display */
+	#define VERSION_NUM_RUSSIA 220
 	/** @brief Software Version(SOUTH AFRICA, SW)*/
 	#define VERSION_NUM_SOUTH_AFRICA VERSION_NUM
 	/** @brief Software Revision*/
@@ -1694,8 +1693,8 @@
     
     /** @brief Software Version(ER2_LCD)*/
     #define VERSION_NUM 413
-    /** @brief Software Version(RUSSIA, ER2_LCD)*/
-    #define VERSION_NUM_RUSSIA 212
+    /** @brief  USE Russia certificated version display */
+    #define VERSION_NUM_RUSSIA 222
     /** @brief Software Version(SOUTH AFRICA, ER2_LCD)*/
     #define VERSION_NUM_SOUTH_AFRICA VERSION_NUM
     /** @brief Software Revision*/
@@ -2249,8 +2248,8 @@
 
 /** @brief Software Version(PW II)*/
 #define VERSION_NUM 410
-/** @brief Software Version(RUSSIA, PW II)*/
-#define VERSION_NUM_RUSSIA 212
+/** @brief  USE Russia certificated version display */
+#define VERSION_NUM_RUSSIA 214
 /** @brief Software Version(SOUTH AFRICA, PW II)*/
 #define VERSION_NUM_SOUTH_AFRICA VERSION_NUM
 
@@ -2288,10 +2287,8 @@
 #define USE_M0516LDN_MCU
 /** @brief use check ad vendor: ob1020, xm24l */
 #define USE_CHECK_AD_VENDOR //if not select, default is OB1020
-
 /* @brief This macro disable Low-Voltage-Reset function. */
 #define USE_DISABLE_LVR
-
 
 /** @brief USE rtc mode */
 //#define USE_RTC
