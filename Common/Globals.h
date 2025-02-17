@@ -471,7 +471,7 @@
 //#define MODEL_NUM MODEL_OMV4_DB2_LCD
 
 /** @brief Model Number(DB1H VFD) data=    , xdata=         , code=           , 2017.01.20*/
-#define MODEL_NUM MODEL_OMV4_DB1H_VFD
+//#define MODEL_NUM MODEL_OMV4_DB1H_VFD
 
 /** @brief Model Number(ER_PLUS LCD) data=    , xdata=         , code=           , 2017.01.20*/
 //#define MODEL_NUM MODEL_OMV4_ER_LCD
@@ -2484,7 +2484,7 @@
     //#define USE_CERTIFICATION_FUNCTION
 
     /** @brief Software Version(PDN)*/
-    #define VERSION_NUM 415
+    #define VERSION_NUM 416
     /** @brief Software Version(RUSSIA, PDN)*/
     #define VERSION_NUM_RUSSIA VERSION_NUM
     /** @brief Software Version(SOUTH AFRICA, PDN)*/
